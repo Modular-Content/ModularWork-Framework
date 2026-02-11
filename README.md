@@ -5,5 +5,5 @@
 ## Установка
 
 ```bash
-git clone <URL проекта>
+git clone https://github.com/Modular-Content/ModularWork-Framework.git
 ```
