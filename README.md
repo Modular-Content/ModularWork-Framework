@@ -33,10 +33,10 @@ Any system that contradicts this definition is considered invalid.
 ### 2.1 Source of Truth
 
 * There MUST exist a single authoritative source of truth for persistent data.
-* In ModularWork, this role is performed by the **Game Coordinator (GC)**.
+* In ModularWork, this role is performed by the **Game Coordinator**.
 * Local server state is **cache**, not truth.
 
-Any system that allows permanent divergence between server state and GC state is forbidden.
+Any system that allows permanent divergence between server state and Game Coordinator state is forbidden.
 
 ---
 
@@ -54,7 +54,7 @@ If behavior cannot be explained, it is considered broken.
 
 * Game servers MUST remain operational when external services are unavailable.
 * External service failure MUST degrade functionality, not terminate gameplay.
-* GC downtime MUST NOT crash or freeze servers.
+* Game Coordinator downtime MUST NOT crash or freeze servers.
 
 Data is queued, batched, and synchronized when connectivity is restored.
 
@@ -136,8 +136,8 @@ Unregistered data does not exist.
 
 ### 5.2 Data Mutation
 
-* All persistent mutations MUST pass through GC or its cache layer.
-* Direct writes bypassing GC authority are forbidden.
+* All persistent mutations MUST pass through Game Coordinator or its cache layer.
+* Direct writes bypassing Game Coordinator authority are forbidden.
 * Emergency local writes MUST be reconciled or discarded.
 
 ---
@@ -146,7 +146,7 @@ Unregistered data does not exist.
 
 ### 6.1 Authority
 
-* GC is the sole authority for:
+* Game Coordinator is the sole authority for:
 
   * persistent player data
   * permissions
@@ -158,23 +158,23 @@ Game servers MAY read cached state but MUST NOT claim authority.
 
 ### 6.2 Failure Mode
 
-* GC failure is a degraded mode, not a fatal error.
+* Game Coordinator failure is a degraded mode, not a fatal error.
 * Servers MUST:
 
   * enter cache mode
   * queue mutations
   * preserve gameplay continuity
 
-Upon GC recovery, reconciliation MUST be deterministic.
+Upon Game Coordinator recovery, reconciliation MUST be deterministic.
 
 ---
 
 ## 7. External Services
 
 * External services MUST NOT be trusted as authoritative.
-* Services MAY read from GC.
-* Services MAY request mutations through GC APIs.
-* Services MUST tolerate GC validation and throttling.
+* Services MAY read from Game Coordinator.
+* Services MAY request mutations through Game Coordinator APIs.
+* Services MUST tolerate Game Coordinator validation and throttling.
 
 ---
 
