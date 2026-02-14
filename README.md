@@ -11,6 +11,7 @@ git clone https://github.com/Modular-Content/ModularWork-Framework.git
 ## 🧩 ModularWork Constitution
 
 **Version:** 0.1 (Draft)
+
 **Status:** Foundational document
 
 ---
