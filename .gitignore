@@ -2,7 +2,6 @@
 .secret/
 .git/
 .github/
-.vscode/
 *.code-workspace
 
 # Production-related

@@ -1,0 +1,28 @@
+{
+    "Lua.workspace.library": [
+        "/mnt/data/Projects/Modular-Content/root-Code/root-Lua/root-Garrysmod/root-Servers/ModularWork-Framework/ModularWork-Framework/ModularWork-GameCoordinator",
+        "/mnt/data/Projects/Modular-Content/root-Code/root-Lua/root-Garrysmod/root-Servers/ModularWork-Framework/ModularWork-Framework/ModularWork-mwlib",
+        "${addons}/garrysmod/module/library"
+    ],
+    "Lua.runtime.version": "LuaJIT",
+    "Lua.runtime.special": {
+        "include": "require",
+        "IncludeCS": "require"
+    },
+    "Lua.runtime.nonstandardSymbol": [
+	    "continue",
+	    "&&",
+	    "||",
+	    "!=",
+	    "!",
+	    "//",
+        "/**/"
+    ],
+    "Lua.diagnostics.disable": [
+        "duplicate-set-field",
+        "inject-field",
+        "lowercase-global"
+    ],
+    "Lua.workspace.checkThirdParty": false,
+    "Lua.workspace.maxPreload": 10000
+}
