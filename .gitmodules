@@ -1,6 +1,0 @@
-[submodule "ModularWork-mwlib"]
-	path = ModularWork-mwlib
-	url = https://github.com/Modular-Content/ModularWork-mwlib
-[submodule "ModularWork-GameCoordinator"]
-	path = ModularWork-GameCoordinator
-	url = https://github.com/Modular-Content/ModularWork-GameCoordinator.git
