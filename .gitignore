@@ -1,0 +1,33 @@
+# GitHub
+.secret/
+.git/
+.github/
+*.code-workspace
+
+# Production-related
+*.env*
+!*.example
+cfg/
+crypt/
+
+# Docker
+/docker/runtime-data
+
+# Assets
+*.jpg
+*.png
+*.xcf
+*.mdl
+*.phy
+*.vtx
+*.vvd
+*.vmt
+*.vtf
+*.wav
+*.mp3
+*.ogg
+*.eot
+*.svg
+*.ttf
+*.woff
+*.otf
