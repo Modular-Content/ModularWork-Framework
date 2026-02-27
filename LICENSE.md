@@ -1,137 +1,163 @@
-# Modular Sovereign Public License (MSPL) v1.0
+# Modular Sovereign Public License (MSPL) v1.1
 
-**Copyright © 2026 Modular Content**  
-[https://modularcontent.dev](https://modularcontent.dev)  
-All rights reserved.
+**Copyright © 2026 Modular Content**. All rights reserved.
 
 ---
 
 ## 1. Definitions
 
-**Software** refers to this project, including its source code, binaries, build scripts, assets, documentation, architecture, internal logic, APIs, naming conventions, and all derivative works thereof.
+**Software** — this project, including but not limited to:
 
-**Author** refers to Modular Content.
+* source code;
+* binaries;
+* assets;
+* configuration files;
+* architecture;
+* APIs;
+* network protocols;
+* documentation;
+  and **any modifications, forks, or derivative works**, except for explicitly independent extensions (see §6.3).
 
-**User** refers to any individual or legal entity that accesses, uses, copies, modifies, or distributes the Software.
+**Author** — Modular Content.
 
-**Commercial Use** means any use that directly or indirectly generates revenue, donations, subscriptions, sponsorships, paid access, in-app purchases, advertising income, or any other financial or material gain.
+**User** — any individual or legal entity obtaining access to the Software.
 
----
+**Public Deployment** — the operation of the Software or derivative works:
 
-## 2. Grant of Rights (Public, but Not Free-for-All)
+* on a publicly accessible server;
+* over the Internet;
+* on any network accessible to third parties outside a private circle.
 
-The Author grants the User a limited, non-exclusive, non-transferable, revocable license to:
+**Commercial Use** — **any** use in which the Software:
 
-- use the Software;  
-- study the Software;  
-- modify the Software;  
-- distribute unmodified or modified versions of the Software,
+* generates value for third parties;
+* is used publicly;
+* is incorporated into a product, service, or platform;
 
-**ONLY under the conditions defined in this license.**
+regardless of whether any revenue is received.
 
-> This is a **PUBLIC license**.  
-> This is **NOT** a transfer of ownership.
-
----
-
-## 3. Ownership and Sovereignty
-
-The Software is and remains the exclusive intellectual property of Modular Content.
-
-All modifications, forks, extensions, and derivative works remain **DERIVED WORKS** of the original Software.
-
-Using, modifying, or distributing the Software does **NOT** make it “your code”, even partially.
-
-Authorship, original credit, and sovereign control remain with Modular Content at all times.
-
-### 3.1 Contributions
-
-By submitting any contribution to the Software, including but not limited to code, documentation, assets, bug reports, or suggestions, you agree that:
-
-- your contribution is provided voluntarily;  
-- your contribution may be used, modified, merged, adapted, sublicensed, and redistributed by Modular Content;  
-- your contribution will be licensed under the terms of this license;  
-- you do not retain any separate ownership, veto rights, or licensing control over your contribution beyond those granted by this license.
-
-Submitting a contribution does **not** grant you authorship or ownership over the Software as a whole.
+> Lack of revenue does not constitute non-commercial use.
 
 ---
 
-## 4. Non-Commercial Use (Free)
+## 2. License Grant
 
-The following uses are permitted **FREE OF CHARGE**:
+The Author hereby grants the User a **limited, revocable, non-exclusive license** to:
 
-- personal use;  
-- educational use;  
-- research;  
-- hobby and experimental projects;  
-- non-commercial indie projects generating less than $1,000 USD per year.
+* use the Software;
+* study the Software;
+* modify the Software;
+* distribute the Software;
 
----
+**strictly subject to the terms of this license**.
 
-## 5. Commercial Use (Paid, No Excuses)
-
-**ANY Commercial Use REQUIRES** an active commercial license obtained from Modular Content.
-
-Commercial Use includes, but is not limited to:
-
-- selling products or services based on the Software;  
-- monetized games, apps, or platforms;  
-- donation-based funding (Patreon, Boosty, OpenCollective, etc.);  
-- ad-supported projects;  
-- paid early access or premium features;  
-- internal corporate use in revenue-generating companies.
-
-> “No profit yet” does **NOT** mean non-commercial.
+This license **does not confer ownership rights**.
 
 ---
 
-## 6. No “I Modified It, Now It’s Mine” Clause
+## 3. Ownership
 
-Modifying the Software does **NOT**:
+The Software is and shall remain the exclusive intellectual property of Modular Content.
 
-- remove this license;  
-- remove the Author’s rights;  
-- grant ownership to the User;  
-- allow relicensing under MIT, GPL, Apache, or any other license.
+No modifications, forks, or derivative works create co-ownership or joint authorship.
 
-Any claim that “this is my code now” is legally false.
+---
+
+## 4. Contributions (Mandatory CLA)
+
+By submitting any contributions, the Contributor agrees that:
+
+* all rights to the contribution are **irrevocably assigned** to Modular Content;
+* Modular Content may use the contribution **without restriction**;
+* the Contributor waives any future claims, approvals, or restrictions.
+
+A contribution is considered **work-for-hire** when submitted publicly.
+
+---
+
+## 5. Non-Commercial Use
+
+Without separate authorization, the following uses are permitted:
+
+* personal use;
+* local or peer-to-peer sessions;
+* educational and research purposes;
+* non-public test servers.
+
+---
+
+## 6. Commercial & Public Use
+
+### 6.1 Prohibition
+
+**ANY Public Deployment is strictly prohibited** without separate authorization from the Author.
+
+### 6.2 Examples of Prohibited Use Without Commercial License
+
+The following are explicitly prohibited without a commercial license:
+
+* public game servers;
+* public hosting services;
+* SaaS or API services;
+* open test servers;
+* community servers;
+* any public instances.
+
+---
+
+### 6.3 Independent Extensions
+
+Plugins, schemas, add-ons, and extensions:
+
+* **are NOT** the property of Modular Content;
+* **are NOT** considered derivative works provided that:
+
+  * no code is copied;
+  * only public APIs are used.
+
+**However:**
+
+* they must be distributed with open source;
+* they must include attribution stating:
+
+  * the Software is used;
+  * the Author is Modular Content;
+  * a reference to this license.
 
 ---
 
 ## 7. Attribution
 
-All copies and derivative works **MUST** retain:
+Users must not:
 
-- the original copyright notice;  
-- the name “Modular Content”;  
-- a reference to this license.
-
-Removing or obscuring attribution is a violation of this license.
+* remove copyright notices;
+* obscure the origin of the Software;
+* misrepresent authorship.
 
 ---
 
-## 8. Enforcement and Termination
+## 8. Special Permissions
 
-Any violation of this license automatically and immediately terminates all rights granted herein.
+Modular Content may:
 
-Upon termination, the User must cease all use and distribution of the Software.
-
-The Author reserves the right to pursue legal action, including claims for damages, statutory penalties, and public disclosure of violations.
+* issue individualized licenses;
+* permit commercial use;
+* authorize private forks;
+* revoke permissions without explanation.
 
 ---
 
-## 9. No Warranty
+## 9. Termination
 
-The Software is provided “AS IS”, without warranty of any kind.
+Violation of any provision of this license **immediately terminates all granted rights**.
 
 ---
 
 ## 10. Final Authority
 
-This license is governed by the Author.
+Interpretation of this license is the sole authority of Modular Content.
 
-- If you want to use the Software commercially — **talk to us**.  
-- If you want to pretend it’s yours — **don’t**.
+**If you want control — build your own engine.
+If you want to use ours — play by the rules.**
 
 **End of License**
